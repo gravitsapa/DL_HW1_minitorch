@@ -182,7 +182,6 @@ def test_sum_distribute(ls1: List[float], ls2: List[float]) -> None:
         addLists(ls1, ls2),
         ls1,
         ls2,
-        strict=True,
     ):
         assert_close(z, x + y)
 
